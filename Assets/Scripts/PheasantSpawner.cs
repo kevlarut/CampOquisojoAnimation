@@ -23,7 +23,7 @@ namespace Assets.Scripts
             if (_currentSpawnDelay <= 0)
             {
                 _currentSpawnDelay = Random.Range(MinSpawnDelay, MaxSpawnDelay);
-                var bird = Instantiate(SeagullGameObject);
+                Instantiate(SeagullGameObject);
             }
         }
     }
